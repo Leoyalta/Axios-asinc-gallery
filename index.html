@@ -2,16 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/Axios-asinc-gallery/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-BE24Cirx.css">
+    <script type="module" crossorigin src="/Axios-asinc-gallery/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/Axios-asinc-gallery/assets/vendor-Dpd1z_xS.js">
+    <link rel="stylesheet" crossorigin href="/Axios-asinc-gallery/assets/vendor-CWKLx11g.css">
+    <link rel="stylesheet" crossorigin href="/Axios-asinc-gallery/assets/index-CCf7Ux4d.css">
   </head>
   <body>
     <main>
-      
-      
+      <section class="search-box">
+  <form class="search-form">
+    <div class="input-box">
+      <label for="serch-input">What are you searching for? </label>
+      <input id="serch-input" type="text" name="searchWord" />
+    </div>
+    <button class="btn" type="submit">Search</button>
+  </form>
+</section>
+
+      <section class="galley-box">
+  <ul class="gallery-list"></ul>
+  <span class="loader is-hiden"></span>
+  <button class="load-more-btn is-hiden">Load more</button>
+</section>
+
     </main>
 
   </body>
