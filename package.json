@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Axios-asinc-gallery  /",
+    "build": "vite build --base=/Axios-asinc-gallery/",
     "preview": "vite preview"
   },
   "devDependencies": {
